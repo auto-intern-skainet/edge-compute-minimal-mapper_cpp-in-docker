@@ -1,0 +1,6 @@
+version: '3.8'
+
+services:
+  redis-timer:
+    build: .
+    network_mode: host
